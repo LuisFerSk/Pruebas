@@ -14,6 +14,8 @@ array.map((elemento) => {
     console.log(elemento)
 })
 
-const filter = array.filter((elemento) => elemento > 2)
+const filter = array.filter((elemento) => { return elemento > 2 })
+
+[3,4,5]
 
 console.log(filter)
